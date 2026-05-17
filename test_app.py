@@ -1,6 +1,4 @@
 # use pytest to test the add function in app.py
-from tkinter.filedialog import test
-
 from app import add
 
 def test_add():
@@ -24,5 +22,5 @@ def test_multiply():
 if __name__ == "__main__": 
     test_add() 
     test_subtract()
-    test.multiply()
+    test_multiply()
     print("All tests passed!")    
