@@ -10,7 +10,7 @@ def test_subtract():
     from app import subtract
     assert subtract(5, 3) == 2
     assert subtract(0, 0) == 0
-    assert subtract(-1, -1) == 1   
+    assert subtract(-1, -1) == 0 
 
 #add main function to run the tests
 if __name__ == "__main__": 
